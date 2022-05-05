@@ -122,7 +122,7 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 120vh;
 }
 
 .bg-putih {
@@ -176,8 +176,6 @@ section.acara {
   background-size: cover;
   height: 100%;
   margin-top: -480px;
-  /* position: relative; */
-  /* z-index: -99; */
 }
 
 section.acara .isi-acara {
@@ -271,6 +269,38 @@ section.gallery .bg-gallery img {
   filter: drop-shadow(1px 1px 10px rgba(0, 0, 0, 0.3));
 }
 
+section.ucapan-terbaik {
+  color: #986955;
+}
+
+section.ucapan-terbaik h2 {
+  font-size: 80px;
+}
+
+section.ucapan-terbaik h1 {
+  font-size: 80px;
+}
+
+section.ucapan-terbaik hr.garis-samping {
+  background-color: #986955 !important;
+  height: 2px;
+}
+
+section.ucapan-terbaik .sampaijumpa {
+  margin-top: -700px;
+}
+
+.bg3 {
+  background-image: url(../img/image3.jpg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 170vh;
+
+  margin-top: -500px;
+}
 /* Akhir Content */
 
 /* responsive */
@@ -407,6 +437,31 @@ section.gallery .bg-gallery img {
   section.gallery .img-gallery {
     margin-top: 200px;
   }
+
+  section.ucapan-terbaik h2 {
+    font-size: 40px;
+  }
+
+  section.ucapan-terbaik h1 {
+    font-size: 40px;
+  }
+
+  section.ucapan-terbaik p {
+    font-size: 12px;
+  }
+
+  section.ucapan-terbaik img.img-baawah {
+    margin-top: 20px;
+  }
+
+  section.ucapan-terbaik .sampaijumpa {
+    margin-top: -230px;
+  }
+
+  .bg3 {
+    height: 120vh;
+    margin-top: -150px;
+  }
 }
 
 @media (min-width: 461px) and (max-width: 575px) {
@@ -428,7 +483,7 @@ section.gallery .bg-gallery img {
   }
 
   .bg-putih {
-    margin-top: -55px;
+    margin-top: -60px;
     padding: 0;
     margin-left: 0;
     margin-right: 0;
@@ -436,7 +491,7 @@ section.gallery .bg-gallery img {
   }
 
   section.quote {
-    margin-top: -30px !important;
+    margin-top: -10px !important;
   }
 
   section.quote p {
@@ -535,11 +590,36 @@ section.gallery .bg-gallery img {
   section.gallery .img-gallery {
     margin-top: 200px;
   }
+
+  section.ucapan-terbaik h2 {
+    font-size: 40px;
+  }
+
+  section.ucapan-terbaik h1 {
+    font-size: 50px;
+  }
+
+  section.ucapan-terbaik p {
+    font-size: 13px;
+  }
+
+  section.ucapan-terbaik img.img-baawah {
+    margin-top: 20px;
+  }
+
+  section.ucapan-terbaik .sampaijumpa {
+    margin-top: -300px;
+  }
+
+  .bg3 {
+    height: 120vh;
+    margin-top: -180px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
   .bg-putih {
-    margin-top: -120px;
+    margin-top: -150px;
     padding: 0;
     margin-left: 0;
     margin-right: 0;
@@ -547,7 +627,7 @@ section.gallery .bg-gallery img {
   }
 
   section.quote {
-    margin-top: -70px !important;
+    margin-top: -0px !important;
   }
 
   section.quote p {
@@ -639,11 +719,32 @@ section.gallery .bg-gallery img {
   section.gallery .img-gallery {
     margin-top: 250px;
   }
+
+  section.ucapan-terbaik h2 {
+    font-size: 50px;
+  }
+
+  section.ucapan-terbaik h1 {
+    font-size: 50px;
+  }
+
+  section.ucapan-terbaik p {
+    font-size: 14px;
+  }
+
+  section.ucapan-terbaik .sampaijumpa {
+    margin-top: -350px;
+  }
+
+  .bg3 {
+    height: 140vh;
+    margin-top: -250px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
   .bg-putih {
-    margin-top: -130px;
+    margin-top: -170px;
     padding: 0;
     margin-left: 0;
     margin-right: 0;
@@ -730,6 +831,27 @@ section.gallery .bg-gallery img {
 
   section.gallery .img-gallery {
     margin-top: 250px;
+  }
+
+  section.ucapan-terbaik h2 {
+    font-size: 50px;
+  }
+
+  section.ucapan-terbaik h1 {
+    font-size: 50px;
+  }
+
+  section.ucapan-terbaik p {
+    font-size: 14px;
+  }
+
+  section.ucapan-terbaik .sampaijumpa {
+    margin-top: -450px;
+  }
+
+  .bg3 {
+    height: 150vh;
+    margin-top: -300px;
   }
 }
 
@@ -818,6 +940,27 @@ section.gallery .bg-gallery img {
   section.gallery .img-gallery {
     margin-top: 250px;
   }
+
+  section.ucapan-terbaik h2 {
+    font-size: 60px;
+  }
+
+  section.ucapan-terbaik h1 {
+    font-size: 70px;
+  }
+
+  section.ucapan-terbaik p {
+    font-size: 17px;
+  }
+
+  section.ucapan-terbaik .sampaijumpa {
+    margin-top: -550px;
+  }
+
+  .bg3 {
+    height: 165vh;
+    margin-top: -400px;
+  }
 }
 
 @media (min-width: 1201px) and (max-width: 1400px) {
@@ -904,5 +1047,26 @@ section.gallery .bg-gallery img {
 
   section.gallery .img-gallery {
     margin-top: 250px;
+  }
+
+  section.ucapan-terbaik h2 {
+    font-size: 60px;
+  }
+
+  section.ucapan-terbaik h1 {
+    font-size: 70px;
+  }
+
+  section.ucapan-terbaik p {
+    font-size: 17px;
+  }
+
+  section.ucapan-terbaik .sampaijumpa {
+    margin-top: -650px;
+  }
+
+  .bg3 {
+    height: 175vh;
+    margin-top: -450px;
   }
 }
