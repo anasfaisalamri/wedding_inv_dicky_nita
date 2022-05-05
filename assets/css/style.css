@@ -120,6 +120,31 @@ section.quote p {
   margin: 0 35px 20px 35px;
 }
 
+section.bagian-mempelai .bg2 {
+  background-color: #986955;
+  padding-bottom: 250px;
+  margin-top: -1px;
+}
+
+section.bagian-mempelai .sang-mempelai {
+  margin-top: -100px !important;
+  font-size: 50px !important;
+}
+
+section.bagian-mempelai .mempelai {
+  margin-top: -0px !important;
+}
+
+section.bagian-mempelai img.img-mempelai {
+  margin-top: 0px;
+  border-radius: 1000px;
+}
+
+section.bagian-mempelai .mempelai p.fs-6 {
+  font-size: 12px;
+  margin: 0 35px;
+}
+
 /* Akhir Content */
 
 /* responsive */
