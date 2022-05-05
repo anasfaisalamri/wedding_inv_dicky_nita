@@ -242,6 +242,35 @@ section.reservasi h1 {
 section.reservasi h2 {
   font-size: 65px;
 }
+
+section.gallery .our-gallery {
+  margin-top: -450px;
+}
+
+section.gallery .our-gallery h1 {
+  font-size: 80px;
+}
+
+section.gallery .our-gallery p {
+  padding: 0 35px;
+}
+
+section.gallery .our-gallery hr.garis-samping {
+  width: 140px;
+  height: 2px;
+  margin: auto;
+}
+
+section.gallery .bg-gallery {
+  background-color: #986955;
+  margin-top: -1px;
+}
+
+section.gallery .bg-gallery img {
+  border-radius: 1000px;
+  filter: drop-shadow(1px 1px 10px rgba(0, 0, 0, 0.3));
+}
+
 /* Akhir Content */
 
 /* responsive */
@@ -357,6 +386,27 @@ section.reservasi h2 {
     font-size: 12px;
     padding: 0 20px;
   }
+
+  section.gallery .our-gallery {
+    margin-top: -70px;
+  }
+
+  section.gallery .our-gallery h1 {
+    font-size: 40px;
+  }
+
+  section.gallery .our-gallery p {
+    font-size: 12px;
+  }
+
+  section.gallery .bg-gallery {
+    background-color: #986955;
+    margin-top: -180px;
+  }
+
+  section.gallery .img-gallery {
+    margin-top: 200px;
+  }
 }
 
 @media (min-width: 461px) and (max-width: 575px) {
@@ -464,6 +514,27 @@ section.reservasi h2 {
     font-size: 14px;
     padding: 0 20px;
   }
+
+  section.gallery .our-gallery {
+    margin-top: -100px;
+  }
+
+  section.gallery .our-gallery h1 {
+    font-size: 50px;
+  }
+
+  section.gallery .our-gallery p {
+    font-size: 14px;
+  }
+
+  section.gallery .bg-gallery {
+    background-color: #986955;
+    margin-top: -165px;
+  }
+
+  section.gallery .img-gallery {
+    margin-top: 200px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -547,6 +618,27 @@ section.reservasi h2 {
     font-size: 16px;
     padding: 0 20px;
   }
+
+  section.gallery .our-gallery {
+    margin-top: -150px;
+  }
+
+  section.gallery .our-gallery h1 {
+    font-size: 60px;
+  }
+
+  section.gallery .our-gallery p {
+    font-size: 18px;
+  }
+
+  section.gallery .bg-gallery {
+    background-color: #986955;
+    margin-top: -190px;
+  }
+
+  section.gallery .img-gallery {
+    margin-top: 250px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -618,6 +710,27 @@ section.reservasi h2 {
     font-size: 18px;
     padding: 0 20px;
   }
+
+  section.gallery .our-gallery {
+    margin-top: -150px;
+  }
+
+  section.gallery .our-gallery h1 {
+    font-size: 70px;
+  }
+
+  section.gallery .our-gallery p {
+    font-size: 20px;
+  }
+
+  section.gallery .bg-gallery {
+    background-color: #986955;
+    margin-top: -190px;
+  }
+
+  section.gallery .img-gallery {
+    margin-top: 250px;
+  }
 }
 
 @media (min-width: 993px) and (max-width: 1200px) {
@@ -684,6 +797,27 @@ section.reservasi h2 {
     font-size: 20px;
     margin: 0 35px 20px 35px;
   }
+
+  section.gallery .our-gallery {
+    margin-top: -220px;
+  }
+
+  section.gallery .our-gallery h1 {
+    font-size: 80px;
+  }
+
+  section.gallery .our-gallery p {
+    font-size: 22px;
+  }
+
+  section.gallery .bg-gallery {
+    background-color: #986955;
+    margin-top: -190px;
+  }
+
+  section.gallery .img-gallery {
+    margin-top: 250px;
+  }
 }
 
 @media (min-width: 1201px) and (max-width: 1400px) {
@@ -749,5 +883,26 @@ section.reservasi h2 {
   section.acara .isi-acara p {
     font-size: 22px;
     margin: 0 35px 20px 35px;
+  }
+
+  section.gallery .our-gallery {
+    margin-top: -280px;
+  }
+
+  section.gallery .our-gallery h1 {
+    font-size: 80px;
+  }
+
+  section.gallery .our-gallery p {
+    font-size: 22px;
+  }
+
+  section.gallery .bg-gallery {
+    background-color: #986955;
+    margin-top: -140px;
+  }
+
+  section.gallery .img-gallery {
+    margin-top: 250px;
   }
 }
