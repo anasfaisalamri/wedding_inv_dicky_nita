@@ -102,6 +102,10 @@ body {
 /* Akhir Cover */
 
 /* Content */
+.content {
+  margin-top: -770px;
+}
+
 .pernikahan {
   /* position: relative; */
   margin-top: 400px;
