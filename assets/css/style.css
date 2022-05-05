@@ -57,6 +57,7 @@ body {
 }
 
 .btn-brown:hover {
+  cursor: pointer;
   color: #986955;
   background-color: #fff;
   border-color: #986955;
@@ -175,8 +176,8 @@ section.acara {
   background-size: cover;
   height: 100%;
   margin-top: -480px;
-  position: relative;
-  z-index: -99;
+  /* position: relative; */
+  /* z-index: -99; */
 }
 
 section.acara .isi-acara {
@@ -198,7 +199,7 @@ section.acara .isi-acara {
 }
 
 section.acara img.img-acara {
-  width: 150px;
+  width: 90px;
 }
 
 .garis-turun {
@@ -222,7 +223,95 @@ hr.garis-samping {
 /* Akhir Content */
 
 /* responsive */
-@media (max-width: 576px) {
+@media (min-width: 0px) and (max-width: 499px) {
+  .judul h1 {
+    font-size: 20px;
+  }
+
+  .judul h2 {
+    font-size: 40px;
+  }
+
+  .pernikahan h1 {
+    font-size: 40px;
+  }
+
+  .pernikahan h4,
+  p {
+    font-size: 18px;
+  }
+
+  .bg-putih {
+    margin-top: -50px;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    /* position: absolute; */
+  }
+
+  section.quote {
+    margin-top: -20px !important;
+  }
+
+  section.quote p {
+    font-size: 12px;
+    margin: 0 35px 20px 35px;
+  }
+
+  section.bagian-mempelai .sang-mempelai {
+    margin-top: -80px;
+    font-size: 40px;
+  }
+
+  section.bagian-mempelai .mempelai {
+    margin-top: -50px;
+  }
+
+  section.bagian-mempelai img.img-mempelai {
+    margin-top: 50px;
+    border-radius: 1000px;
+  }
+
+  section.bagian-mempelai .mempelai p.fs-6 {
+    font-size: 12px;
+    margin: 0 35px;
+  }
+
+  section.acara {
+    background-image: url(../img/bg-2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin-top: -110px;
+    /* position: relative; */
+    /* z-index: -99; */
+  }
+
+  section.acara .isi-acara {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position: center;
+
+    border-radius: 0px;
+
+    margin-top: 200px;
+    padding-top: 50px;
+  }
+
+  section.acara .isi-acara h2 {
+    font-size: 40px;
+  }
+
+  section.acara .isi-acara h3 {
+    font-size: 16px;
+  }
+
+  section.acara .isi-acara p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 575px) {
   .judul h1 {
     font-size: 30px;
   }
@@ -282,9 +371,9 @@ hr.garis-samping {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    margin-top: -280px;
-    position: relative;
-    z-index: -99;
+    margin-top: -180px;
+    /* position: relative; */
+    /* z-index: -99; */
   }
 
   section.acara .isi-acara {
@@ -293,7 +382,7 @@ hr.garis-samping {
 
     border-radius: 0px;
 
-    margin-top: 350px;
+    margin-top: 250px;
     padding-top: 50px;
   }
 
@@ -307,7 +396,7 @@ hr.garis-samping {
   }
 }
 
-@media (min-width: 577px) and (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 767px) {
   .bg-putih {
     margin-top: -120px;
     padding: 0;
@@ -344,13 +433,22 @@ hr.garis-samping {
     margin: 0 35px;
   }
 
+  section.acara {
+    background-image: url(../img/bg-2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin-top: -210px;
+  }
+
   section.acara .isi-acara {
     background-color: rgba(0, 0, 0, 0.5);
     background-position: center;
 
     border-radius: 30px;
 
-    margin-top: 550px;
+    margin-top: 280px;
     padding-top: 50px;
   }
 
@@ -401,13 +499,22 @@ hr.garis-samping {
     margin: 0 35px;
   }
 
+  section.acara {
+    background-image: url(../img/bg-2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin-top: -285px;
+  }
+
   section.acara .isi-acara {
     background-color: rgba(0, 0, 0, 0.5);
     background-position: center;
 
     border-radius: 30px;
 
-    margin-top: 550px;
+    margin-top: 380px;
     padding-top: 50px;
   }
 
@@ -458,13 +565,22 @@ hr.garis-samping {
     margin: 0 35px;
   }
 
+  section.acara {
+    background-image: url(../img/bg-2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin-top: -350px;
+  }
+
   section.acara .isi-acara {
     background-color: rgba(0, 0, 0, 0.5);
     background-position: center;
 
     border-radius: 30px;
 
-    margin-top: 550px;
+    margin-top: 450px;
     padding-top: 50px;
   }
 
@@ -515,13 +631,22 @@ hr.garis-samping {
     margin: 0 35px;
   }
 
+  section.acara {
+    background-image: url(../img/bg-2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin-top: -400px;
+  }
+
   section.acara .isi-acara {
     background-color: rgba(0, 0, 0, 0.5);
     background-position: center;
 
     border-radius: 30px;
 
-    margin-top: 550px;
+    margin-top: 480px;
     padding-top: 50px;
   }
 
