@@ -199,7 +199,7 @@ section.acara .isi-acara {
 }
 
 section.acara img.img-acara {
-  width: 90px;
+  width: 120px;
 }
 
 .garis-turun {
@@ -220,10 +220,32 @@ hr.garis-samping {
 .acara-nikah {
   line-height: 25px;
 }
+
+section.reservasi {
+  color: #986955;
+}
+
+section.reservasi hr.garis-samping {
+  background-color: #986955 !important;
+  height: 2px;
+}
+
+section.reservasi img {
+  width: 120px;
+  color: #986955;
+}
+
+section.reservasi h1 {
+  font-size: 80px;
+}
+
+section.reservasi h2 {
+  font-size: 65px;
+}
 /* Akhir Content */
 
 /* responsive */
-@media (min-width: 0px) and (max-width: 499px) {
+@media (min-width: 0px) and (max-width: 460px) {
   .judul h1 {
     font-size: 20px;
   }
@@ -283,7 +305,7 @@ hr.garis-samping {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    margin-top: -110px;
+    margin-top: -122px;
     /* position: relative; */
     /* z-index: -99; */
   }
@@ -298,6 +320,10 @@ hr.garis-samping {
     padding-top: 50px;
   }
 
+  section.acara img.img-acara {
+    width: 90px;
+  }
+
   section.acara .isi-acara h2 {
     font-size: 40px;
   }
@@ -309,9 +335,31 @@ hr.garis-samping {
   section.acara .isi-acara p {
     font-size: 12px;
   }
+
+  section.reservasi img {
+    width: 90px;
+    color: #986955;
+  }
+
+  section.reservasi h1 {
+    font-size: 46px;
+  }
+
+  section.reservasi h2 {
+    font-size: 40px;
+  }
+
+  section.reservasi h3 {
+    font-size: 18px;
+  }
+
+  section.reservasi p {
+    font-size: 12px;
+    padding: 0 20px;
+  }
 }
 
-@media (min-width: 500px) and (max-width: 575px) {
+@media (min-width: 461px) and (max-width: 575px) {
   .judul h1 {
     font-size: 30px;
   }
@@ -371,7 +419,7 @@ hr.garis-samping {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    margin-top: -180px;
+    margin-top: -175px;
     /* position: relative; */
     /* z-index: -99; */
   }
@@ -393,6 +441,28 @@ hr.garis-samping {
   section.acara .isi-acara p {
     font-size: 14px;
     margin: 0 35px 20px 35px;
+  }
+
+  section.reservasi img {
+    width: 90px;
+    color: #986955;
+  }
+
+  section.reservasi h1 {
+    font-size: 60px;
+  }
+
+  section.reservasi h2 {
+    font-size: 50px;
+  }
+
+  section.reservasi h3 {
+    font-size: 22px;
+  }
+
+  section.reservasi p {
+    font-size: 14px;
+    padding: 0 20px;
   }
 }
 
@@ -460,6 +530,23 @@ hr.garis-samping {
     font-size: 16px;
     margin: 0 35px 20px 35px;
   }
+
+  section.reservasi h1 {
+    font-size: 65px;
+  }
+
+  section.reservasi h2 {
+    font-size: 55px;
+  }
+
+  section.reservasi h3 {
+    font-size: 24px;
+  }
+
+  section.reservasi p {
+    font-size: 16px;
+    padding: 0 20px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -525,6 +612,11 @@ hr.garis-samping {
   section.acara .isi-acara p {
     font-size: 18px;
     margin: 0 35px 20px 35px;
+  }
+
+  section.reservasi p {
+    font-size: 18px;
+    padding: 0 20px;
   }
 }
 
