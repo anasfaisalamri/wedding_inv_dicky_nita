@@ -69,6 +69,7 @@ body {
 
   text-align: center;
   color: white;
+  text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
 }
 
 .display-6 {
@@ -151,8 +152,25 @@ section.bagian-mempelai .mempelai p.fs-6 {
 
 /* responsive */
 @media (max-width: 576px) {
+  .judul h1 {
+    font-size: 30px;
+  }
+
+  .judul h2 {
+    font-size: 50px;
+  }
+
+  .pernikahan h1 {
+    font-size: 60px;
+  }
+
+  .pernikahan h4,
+  p {
+    font-size: 20px;
+  }
+
   .bg-putih {
-    margin-top: -50px;
+    margin-top: -55px;
     padding: 0;
     margin-left: 0;
     margin-right: 0;
