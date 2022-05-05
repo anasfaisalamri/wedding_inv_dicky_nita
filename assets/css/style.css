@@ -68,6 +68,13 @@ body {
 }
 
 /* Cover */
+.cover {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
 #img-cover {
   height: 100vh;
   background-image: url(../img/cover.jpg);
@@ -103,7 +110,9 @@ body {
 
 /* Content */
 .content {
-  margin-top: -770px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
 }
 
 .pernikahan {
@@ -304,6 +313,14 @@ section.ucapan-terbaik .sampaijumpa {
   height: 170vh;
 
   margin-top: -500px;
+}
+
+.modals {
+  color: #986955;
+}
+
+.modals h1 {
+  font-size: 50px;
 }
 /* Akhir Content */
 

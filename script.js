@@ -28,7 +28,7 @@ btnBukaUndangan.addEventListener("click", function () {
   cover.setAttribute("data-aos", "fade-down");
   // cover.classList.add("d-none");
 
-  play();
+  // play();
 });
 
 function play() {

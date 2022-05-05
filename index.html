@@ -25,17 +25,19 @@
     <title>Wedding Invitation | Dicky & Nita</title>
   </head>
   <body>
-    <section id="img-cover">
-      <div class="row">
-        <div class="col-12">
-          <div class="textcover judul">
-            <h1 class="display-6">Pernikahan</h1>
-            <h2 class="namayangnikah font-petemoss">Dicky & Nita</h2>
-            <button type="button" class="btn btn-white" id="bukaundangan">Buka Undangan</button>
+    <div class="cover">
+      <section id="img-cover">
+        <div class="row">
+          <div class="col-12">
+            <div class="textcover judul">
+              <h1 class="display-6">Pernikahan</h1>
+              <h2 class="namayangnikah font-petemoss">Dicky & Nita</h2>
+              <button type="button" class="btn btn-white" id="bukaundangan">Buka Undangan</button>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
 
     <!-- play music -->
     <div id="playaudio"></div>
@@ -200,7 +202,7 @@
               <button type="button" class="btn btn-brown col-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Reservasi</button>
 
               <!-- Modal -->
-              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-2" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <!-- <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-2" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -233,7 +235,7 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
           <div class="row mx-auto justify-content-center pb-5">
@@ -351,7 +353,7 @@
             <button type="button" class="btn btn-brown col-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">Tulis Disini</button>
 
             <!-- Modal -->
-            <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <!-- <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
               <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                   <div class="modal-header">
@@ -378,7 +380,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
             <hr class="garis-samping col-6 mx-auto my-4" />
           </div>
         </div>
@@ -395,7 +397,7 @@
               <button type="button" class="btn btn-brown col-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">Kirim Kado</button>
 
               <!-- Modal -->
-              <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <!-- <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -410,13 +412,13 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
 
               <!-- Button trigger modal -->
               <button type="button" class="btn btn-brown col-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop4">Transfer</button>
 
               <!-- Modal -->
-              <div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <!-- <div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -435,7 +437,7 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
             <hr class="garis-samping col-6 mx-auto my-4 mb-5" />
           </div>
@@ -449,6 +451,113 @@
       </section>
 
       <div class="bg3"></div>
+    </div>
+
+    <div class="modals">
+      <div class="modal-reservasi">
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-2" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title font-corinthia" id="staticBackdropLabel">Reservasi</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+
+              <div class="modal-body text-start">
+                <div class="alert alert-success alert-dismissible fade show d-none alert-terimakasih-reservasi" role="alert" id="alertKosong"></div>
+
+                <form name="reservasi" action="#">
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Nama Lengkap</label>
+                    <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
+                  </div>
+                  <div class="mb-3">
+                    <label for="nohp" class="form-label">Nomor Hp</label>
+                    <input type="text" class="form-control" id="nohp" aria-describedby="nohp" name="nomorhp" />
+                  </div>
+                  <div class="mb-3">
+                    <label for="pesan" class="form-label"></label>
+                    <textarea class="form-control" placeholder="Apakah kamu akan hadir? (ya/tidak)" id="pesan" rows="2" name="hadir"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-brown col-6 btn-kirim-reservasi">Kirim</button>
+                  <button class="btn btn-brown btn-loading-reservasi d-none" type="button" disabled>
+                    <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                    Loading...
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-ucapanterbaik">
+        <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 class="modal-title font-corinthia" id="staticBackdropLabel">Ucapan Terbaikmu</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body text-start">
+                <div class="alert alert-success alert-dismissible fade show d-none alert-ucapan" id="alertKosong" role="alert"></div>
+                <form name="ucapanTerbaikDickyNita">
+                  <div class="mb-3">
+                    <label for="namaUcapan" class="form-label">Nama Lengkap</label>
+                    <input type="text" class="form-control" id="namaUcapan" aria-describedby="namaUcapan" name="nama" />
+                  </div>
+                  <div class="mb-3">
+                    <label for="pesanUcapan" class="form-label">Pesan</label>
+                    <textarea class="form-control" id="pesanUcapan" rows="3" name="pesan"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-brown col-6 btn-kirim-ucapan">Kirim</button>
+                  <button class="btn btn-brown btn-loading-ucapan d-none" type="button" disabled>
+                    <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                    Loading...
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body text-center">
+                <p>
+                  Silahkan kirim kado ke alamat berikut : <br />
+                  <span class="fw-bold fs-3">Nita Yuliani</span> <br />
+                  Jl Mengger Girang Rt 09 RW 08, Kelurahan Pasirluyu, Kecamatan Regol, Kota Bandung. 40254
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body text-center">
+                <p>Silahkan transfer hadiah melalui nomor rekening berikut :</p>
+                <div class="d-flex row-cols-2 mx-auto justify-content-center">
+                  <div class="col">
+                    <img src="assets/icon/rekening-dicky.png" class="img-fluid" alt="" />
+                  </div>
+                  <div class="col">
+                    <img src="assets/icon/rekening-nita.png" class="img-fluid" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
