@@ -72,7 +72,7 @@ body {
 }
 
 .display-6 {
-  font-size: 35px !important;
+  font-size: 35px;
 }
 
 .namayangnikah {
@@ -105,7 +105,7 @@ p {
 }
 
 .bg-putih {
-  margin-top: -610px;
+  margin-top: -350px;
   padding: 0;
   margin-left: 0;
   margin-right: 0;
@@ -113,7 +113,7 @@ p {
 }
 
 section.quote {
-  margin-top: -100px !important;
+  margin-top: -60px;
 }
 
 section.quote p {
@@ -122,21 +122,20 @@ section.quote p {
 
 section.bagian-mempelai .bg2 {
   background-color: #986955;
-  padding-bottom: 250px;
   margin-top: -1px;
 }
 
 section.bagian-mempelai .sang-mempelai {
-  margin-top: -100px !important;
-  font-size: 50px !important;
+  margin-top: -450px;
+  font-size: 60px;
 }
 
 section.bagian-mempelai .mempelai {
-  margin-top: -0px !important;
+  margin-top: -200px;
 }
 
 section.bagian-mempelai img.img-mempelai {
-  margin-top: 0px;
+  margin-top: 50px;
   border-radius: 1000px;
 }
 
@@ -145,24 +144,198 @@ section.bagian-mempelai .mempelai p.fs-6 {
   margin: 0 35px;
 }
 
+.lengkungan-bawah {
+  margin-top: -1px;
+}
 /* Akhir Content */
 
 /* responsive */
 @media (max-width: 576px) {
   .bg-putih {
-    margin-top: 500px;
+    margin-top: -50px;
     padding: 0;
     margin-left: 0;
     margin-right: 0;
-    position: absolute;
+    /* position: absolute; */
   }
 
   section.quote {
-    margin-top: 30px !important;
+    margin-top: -50px !important;
   }
 
   section.quote p {
     font-size: 12px;
     margin: 0 35px 20px 35px;
+  }
+
+  section.bagian-mempelai .sang-mempelai {
+    margin-top: -120px;
+    font-size: 50px;
+  }
+
+  section.bagian-mempelai .mempelai {
+    margin-top: -50px;
+  }
+
+  section.bagian-mempelai img.img-mempelai {
+    margin-top: 50px;
+    border-radius: 1000px;
+  }
+
+  section.bagian-mempelai .mempelai p.fs-6 {
+    font-size: 12px;
+    margin: 0 35px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+  .bg-putih {
+    margin-top: -120px;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    /* position: absolute; */
+  }
+
+  section.quote {
+    margin-top: -70px !important;
+  }
+
+  section.quote p {
+    font-size: 16px;
+    margin: 0 35px 20px 35px;
+  }
+
+  section.bagian-mempelai .sang-mempelai {
+    margin-top: -150px;
+    font-size: 50px;
+  }
+
+  section.bagian-mempelai .mempelai {
+    margin-top: -60px;
+  }
+
+  section.bagian-mempelai img.img-mempelai {
+    margin-top: 50px;
+    border-radius: 1000px;
+  }
+
+  section.bagian-mempelai .mempelai p.fs-6 {
+    font-size: 12px;
+    margin: 0 35px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .bg-putih {
+    margin-top: -130px;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    /* position: absolute; */
+  }
+
+  section.quote {
+    margin-top: -40px !important;
+  }
+
+  section.quote p {
+    font-size: 16px;
+    margin: 0 35px 20px 35px;
+  }
+
+  section.bagian-mempelai .sang-mempelai {
+    margin-top: -200px;
+    font-size: 50px;
+  }
+
+  section.bagian-mempelai .mempelai {
+    margin-top: -60px;
+  }
+
+  section.bagian-mempelai img.img-mempelai {
+    margin-top: 50px;
+    border-radius: 1000px;
+  }
+
+  section.bagian-mempelai .mempelai p.fs-6 {
+    font-size: 12px;
+    margin: 0 35px;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .bg-putih {
+    margin-top: -180px;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    /* position: absolute; */
+  }
+
+  section.quote {
+    margin-top: -20px !important;
+  }
+
+  section.quote p {
+    font-size: 18px;
+    margin: 0 35px 20px 35px;
+  }
+
+  section.bagian-mempelai .sang-mempelai {
+    margin-top: -280px;
+    font-size: 70px;
+  }
+
+  section.bagian-mempelai .mempelai {
+    margin-top: -150px;
+  }
+
+  section.bagian-mempelai img.img-mempelai {
+    margin-top: 50px;
+    border-radius: 1000px;
+  }
+
+  section.bagian-mempelai .mempelai p.fs-6 {
+    font-size: 12px;
+    margin: 0 35px;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .bg-putih {
+    margin-top: -260px;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    /* position: absolute; */
+  }
+
+  section.quote {
+    margin-top: -20px !important;
+  }
+
+  section.quote p {
+    font-size: 20px;
+    margin: 0 35px 20px 35px;
+  }
+
+  section.bagian-mempelai .sang-mempelai {
+    margin-top: -300px;
+    font-size: 70px;
+  }
+
+  section.bagian-mempelai .mempelai {
+    margin-top: -150px;
+  }
+
+  section.bagian-mempelai img.img-mempelai {
+    margin-top: 50px;
+    border-radius: 1000px;
+  }
+
+  section.bagian-mempelai .mempelai p.fs-6 {
+    font-size: 12px;
+    margin: 0 35px;
   }
 }
