@@ -79,3 +79,65 @@ body {
   font-size: 80px;
 }
 /* Akhir Cover */
+
+/* Content */
+.pernikahan {
+  /* position: relative; */
+  margin-top: 400px;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+.pernikahan h1 {
+  font-size: 80px;
+}
+
+.pernikahan h4,
+p {
+  font-size: 22px;
+}
+
+.bg1 {
+  background-image: url(../img/bg-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.bg-putih {
+  margin-top: -610px;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+  /* position: absolute; */
+}
+
+section.quote {
+  margin-top: -100px !important;
+}
+
+section.quote p {
+  margin: 0 35px 20px 35px;
+}
+
+/* Akhir Content */
+
+/* responsive */
+@media (max-width: 576px) {
+  .bg-putih {
+    margin-top: 500px;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    position: absolute;
+  }
+
+  section.quote {
+    margin-top: 30px !important;
+  }
+
+  section.quote p {
+    font-size: 12px;
+    margin: 0 35px 20px 35px;
+  }
+}
