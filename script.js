@@ -1,8 +1,3 @@
-// AOS.init({
-//   duration: 800,
-//   once: true,
-// });
-
 // overflow y
 document.body.style.overflowY = "hidden";
 document.body.style.overflowX = "hidden";
@@ -26,9 +21,8 @@ btnBukaUndangan.addEventListener("click", function () {
 
   let cover = document.getElementById("img-cover");
   cover.setAttribute("data-aos", "fade-down");
-  // cover.classList.add("d-none");
 
-  // play();
+  play();
 });
 
 function play() {

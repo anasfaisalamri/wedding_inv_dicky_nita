@@ -319,7 +319,8 @@ section.ucapan-terbaik .sampaijumpa {
   color: #986955;
 }
 
-.modals h1 {
+.modals h1,
+h2 {
   font-size: 50px;
 }
 /* Akhir Content */
