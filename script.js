@@ -14,6 +14,8 @@ btnBukaUndangan.addEventListener("click", function () {
   let displayshow = document.getElementById("content");
   displayshow.classList.remove("d-none");
 
+  document.body.style.overflowX = "hidden";
+
   AOS.init({
     duration: 1000,
     delay: 150,
@@ -26,7 +28,7 @@ btnBukaUndangan.addEventListener("click", function () {
   cover.setAttribute("data-aos", "fade-down");
   // cover.classList.add("d-none");
 
-  // play();
+  play();
 });
 
 function play() {
@@ -51,7 +53,7 @@ formReservasi.addEventListener("submit", (e) => {
   if (inputNama == "" || inputNohp == "") {
     classAlert.classList.replace("alert-success", "alert-danger");
 
-    alertTerimakasihReservasi.innerHTML = "<strong>Maaf!</strong> Nama atau No Handpone anda belum di isi.";
+    alertTerimakasihReservasi.innerHTML = "<strong>Maaf!</strong> Ada yang belum kamu isi.";
 
     alertTerimakasihReservasi.classList.replace("d-none", "d-block");
   } else {
@@ -70,7 +72,7 @@ formReservasi.addEventListener("submit", (e) => {
         btnKirimReservasi.classList.toggle("d-none");
 
         // ubah isi alert
-        alertTerimakasihReservasi.innerHTML = "<strong>Terimakasih!</strong> Pesan anda sudah kami terima.";
+        alertTerimakasihReservasi.innerHTML = "<strong>Terimakasih!</strong> Pesan kamu sudah kami terima.";
 
         // tampilkan alert
         alertTerimakasihReservasi.classList.replace("d-none", "alert-success");
@@ -99,7 +101,7 @@ formUcapan.addEventListener("submit", (e) => {
   if (inputNamaUcapan == "" || inputPesanUcapan == "") {
     alertUcapan.classList.replace("alert-success", "alert-danger");
 
-    alertUcapan.innerHTML = "<strong>Maaf!</strong> Nama atau No Handpone anda belum di isi.";
+    alertUcapan.innerHTML = "<strong>Maaf!</strong> Ada yang belum kamu isi.";
 
     alertUcapan.classList.replace("d-none", "d-block");
   } else {
@@ -118,7 +120,7 @@ formUcapan.addEventListener("submit", (e) => {
         btnKirimUcapan.classList.toggle("d-none");
 
         // rubah isi alert
-        alertUcapan.innerHTML = "<strong>Terimakasih!</strong> Pesan anda sudah kami terima.";
+        alertUcapan.innerHTML = "<strong>Terimakasih!</strong> Pesan kamu sudah kami terima.";
 
         // tampilkan alert
         alertUcapan.classList.replace("alert-danger", "alert-success");
