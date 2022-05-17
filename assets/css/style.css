@@ -10,7 +10,7 @@ html, body {
 
   width: 100%;
 
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 /* Utility */
@@ -355,7 +355,7 @@ section.ucapan-terbaik .sampaijumpa {
   }
 
   section.quote p {
-    font-size: 12px;
+    font-size: 14px;
     margin: 0 35px 20px 35px;
   }
 
@@ -374,7 +374,7 @@ section.ucapan-terbaik .sampaijumpa {
   }
 
   section.bagian-mempelai .mempelai p.fs-6 {
-    font-size: 12px;
+    font-size: 14px;
     margin: 0 35px;
   }
 
@@ -412,7 +412,7 @@ section.ucapan-terbaik .sampaijumpa {
   }
 
   section.acara .isi-acara p {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   section.reservasi img {
@@ -433,7 +433,7 @@ section.ucapan-terbaik .sampaijumpa {
   }
 
   section.reservasi p {
-    font-size: 12px;
+    font-size: 14px;
     padding: 0 20px;
   }
 
@@ -446,12 +446,13 @@ section.ucapan-terbaik .sampaijumpa {
   }
 
   section.gallery .our-gallery p {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   section.gallery .bg-gallery {
     background-color: #986955;
-    margin-top: -180px;
+    padding-top: 100px;
+    margin-top: -235px;
   }
 
   section.gallery .img-gallery {
@@ -467,7 +468,7 @@ section.ucapan-terbaik .sampaijumpa {
   }
 
   section.ucapan-terbaik p {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   section.ucapan-terbaik img.img-baawah {
@@ -604,7 +605,7 @@ section.ucapan-terbaik .sampaijumpa {
 
   section.gallery .bg-gallery {
     background-color: #986955;
-    margin-top: -165px;
+    margin-top: -175px;
   }
 
   section.gallery .img-gallery {
@@ -846,7 +847,7 @@ section.ucapan-terbaik .sampaijumpa {
 
   section.gallery .bg-gallery {
     background-color: #986955;
-    margin-top: -190px;
+    margin-top: -200px;
   }
 
   section.gallery .img-gallery {
