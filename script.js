@@ -1,5 +1,5 @@
 // overflow y
-document.body.style.overflowY = "hidden";
+// document.body.style.overflowY = "hidden";
 
 // klik buka undangan
 let btnBukaUndangan = document.getElementById("bukaundangan");
@@ -14,7 +14,7 @@ btnBukaUndangan.addEventListener("click", function () {
     once: true,
   });
 
-  document.body.style.overflowY = "scroll";
+  // document.body.style.overflowY = "scroll";
 
   let cover = document.getElementById("img-cover");
   cover.setAttribute("data-aos", "fade-down");
@@ -23,10 +23,18 @@ btnBukaUndangan.addEventListener("click", function () {
   document.getElementById("song").play();
 });
 
-// function play() {
-//   let makAudio = document.getElementById("playaudio");
-//   makAudio.innerHTML = "<audio loop autoplay><source src='assets/sound/LoveTheme.mp3' type='audio/ogg'><embed src='asset/LoveTheme.mp3' autostart='true' loop='true' hidden='true'></audio>";
-// }
+
+let aos = document.querySelectorAll('[data-aos]');
+aos.forEach(aoss => aoss.style.overflowX = 'hidden');
+
+let acara = document.querySelector('.acara');
+let aosAcara = acara.querySelectorAll('[data-aos]');
+aosAcara.forEach(aossAcara => aossAcara.removeAttribute('style'))
+console.log(aosAcara);
+
+let ucapanTerbaik = document.querySelector('.ucapan-terbaik');
+let aosUcapanTerbaik = ucapanTerbaik.querySelectorAll('[data-aos]')[2].removeAttribute('style');
+console.log(aosUcapanTerbaik);
 
 // form Reservasi
 const scriptURLReservasi = "https://script.google.com/macros/s/AKfycbxIakiEtS-G9WHyUqfHp5TP2X7JC0o5svJ0Atrh4oH-Eq8Z0cFW5PCzyoXczMayVJrW6Q/exec";
