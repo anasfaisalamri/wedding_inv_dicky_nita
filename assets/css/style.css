@@ -16,6 +16,10 @@ html, body {
   overflow-x: hidden;
 }
 
+body div {
+  overflow-x: hidden;
+}
+
 /* Utility */
 .font-petemoss {
   font-family: "petemoss";
