@@ -1,6 +1,5 @@
 // overflow y
 document.body.style.overflowY = "hidden";
-// document.body.style.overflowX = "hidden";
 
 // klik buka undangan
 let btnBukaUndangan = document.getElementById("bukaundangan");
@@ -8,8 +7,6 @@ let btnBukaUndangan = document.getElementById("bukaundangan");
 btnBukaUndangan.addEventListener("click", function () {
   let displayshow = document.getElementById("content");
   displayshow.classList.remove("d-none");
-
-  // document.body.style.overflowX = "hidden";
 
   AOS.init({
     duration: 1000,
