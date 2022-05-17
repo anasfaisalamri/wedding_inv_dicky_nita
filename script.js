@@ -9,7 +9,7 @@ btnBukaUndangan.addEventListener("click", function () {
   let displayshow = document.getElementById("content");
   displayshow.classList.remove("d-none");
 
-  document.body.style.overflowX = "hidden";
+  // document.body.style.overflowX = "hidden";
 
   AOS.init({
     duration: 1000,
