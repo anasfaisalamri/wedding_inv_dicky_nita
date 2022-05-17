@@ -1,5 +1,5 @@
 // overflow y
-document.body.style.overflowY = "hidden";
+// document.body.style.overflowY = "hidden";
 
 // klik buka undangan
 let btnBukaUndangan = document.getElementById("bukaundangan");
