@@ -13,10 +13,10 @@ html, body {
   margin: 0;
   padding: 0;
 
-  width: 100vw;
+  /* width: 100vw; */
 }
 
-body div {
+body>div {
   overflow-x: hidden;
 }
 
